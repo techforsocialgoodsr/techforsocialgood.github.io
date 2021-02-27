@@ -1,0 +1,212 @@
+/* 
+*Globals 
+*/
+html,
+/* nav, */
+body {
+  background-color: #9cb0b4;
+  text-shadow: none;
+  background-repeat: repeat;
+  background-size: cover;
+  color: black;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Quattrocento', serif; */
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.h-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-primary {
+    /* background: #4A4C71; */
+    border-radius: 50px;
+    border: 0px;
+}
+
+.btn-text {
+    /* color: #FFF7EE; */
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    /* background: #4A4C71; */
+}
+
+.btn-text:hover {
+    text-decoration: none;
+    /* color: #FFF7EE; */
+}
+
+.btn {
+    letter-spacing: 4px;
+}
+
+ul{
+    margin-left: 0px;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    /* text-decoration: none; */
+    color: #4A4C71;
+}
+i{
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.fa:hover {
+    border-bottom: 4px solid #d7eef1;
+}
+
+/* 
+* NAV BAR 
+*/
+.navbar {
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    background-color: #76b0ae;
+    color: #d7eef1;
+}
+
+.nav-width {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-right {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.nav-link {
+    color: #d7eef1;
+}
+.nav-link:hover, .nav-link:focus {
+    border-bottom: 3px
+    solid#163759;
+}
+
+.navbar.scrolled{
+    background-color:#cde3e6 !important;
+    transition: background-color 200ms linear;
+    color: #163759;
+  }
+
+.navbar.scrolled .nav-link{
+    color: #163759;
+}
+
+
+/* 
+* JUMBOTRON 
+*/
+.icon {
+    /* color: rgb(255,241,224); */
+    padding: 0 1%;
+}
+
+
+/* 
+* ABOUT 
+*/
+.about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.resume-button {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+
+
+    background: #4A4C71;
+    border-radius: 50px;
+}
+
+.about-width {
+    width: 80%;
+}
+
+.headshot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .about {
+        height: 100%;
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .headshot {
+        width: 90vw;
+    }
+
+a:hover, a:focus {
+    border-bottom: 3px solid #163759;
+    color:#d7eef1;
+}
+/*
+* Education/Experience
+*/
+.exp-card {
+    border-radius: 0px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+/*
+* Education/Experience
+*/
+.works {
+    height: 100vh;
+    padding: 5% 0;
+}
+
+.edu-exp-container {
+    background-color: white;
+    width: 100%;
+}
